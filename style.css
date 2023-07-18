@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.img-section{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("login-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color:white;
+    font-size: 30px;
+}
+
+
+ .form{
+    width: 40%;
+    height: 100vh;
+    background-color:rgb(31, 31, 31);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.form img{
+    width: 200px;
+    padding-bottom: 20px;
+} 
+ 
+ .form-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+ }
+ 
+.form-section label{
+    font-size: 15px;
+    width: 300px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: start;
+    /* text-align: center; */
+    color: white;
+     font-family: 'Times New Roman', Times, serif;
+     margin-bottom: 5px;
+    
+    
+    
+ } 
+ .form-section input{
+     width: 300px; 
+     height: 30px; 
+     background-color:lavender; 
+     border:none; 
+     padding-left: 10px;
+
+ }
+ 
+ .form-section a{
+    margin-top: 20px;
+    text-decoration: none;
+    
+
+    
+ }
+ 
+.form-section p{
+    margin: 60px;
+    font-size: small;
+    align-items: flex-end;
+
+    
+}
+.form-section button{
+    margin-top: 20px;
+    font-size: 15px;
+    border: 1px solid black;
+    width: 300px;
+    height: 40px;
+    background: lightseagreen;
+   
+}    
+
+
+.img-section button{
+    margin-top: 30px;
+    font-size: 15px;
+    border: 1px solid white;
+    width: 300px;
+    height: 40px;
+    background: transparent; 
+}
+
+.img-section a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+
+}
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .form img{
+        width: 300px;
+    }
+    .img-section{
+        display: none;
+    }
+    
+}
